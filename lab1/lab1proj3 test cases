@@ -1,0 +1,83 @@
+Antony Tejakusuma
+CIS 35A
+Lab 1 Project 3
+Due date: 7/3/2016
+Submission date: 7/2/2016
+
+Test Case 1:
+	Enter description of the item: Computer
+	Enter the year of purchase: 1994
+	Enter the cost of the item: 2000
+	Enter estimated life of the item: 5
+	Enter depreciation method: Straight-Line
+
+	Description: Computer
+	Year of Purchase: 1994
+	Cost: 2000
+	Estimated Life: 5
+	Method of Depreciation: Straight-Line
+	Year	Cost		Dep. Amt	Tot Dep.
+	1994	2,000.00	  400.00	  400.00
+	1995	2,000.00	  400.00	  800.00
+	1996	2,000.00	  400.00	1,200.00
+	1997	2,000.00	  400.00	1,600.00
+	1998	2,000.00	  400.00	2,000.00
+
+Test Case 2:
+	Enter description of the item: Computer
+	Enter the year of purchase: 1994
+	Enter the cost of the item: 2000
+	Enter estimated life of the item: 5
+	Enter depreciation method: Double-Declining
+
+	Description: Computer
+	Year of Purchase: 1994
+	Cost: 2000
+	Estimated Life: 5
+	Method of Depreciation: Double-Declining
+	Year	Cost		Dep. Amt	Tot Dep.
+	1994	2,000.00	  800.00	  800.00
+	1995	1,200.00	  480.00	1,280.00
+	1996	  720.00	  288.00	1,568.00
+	1997	  432.00	  172.80	1,740.80
+	1998	  259.20	  259.20	2,000.00
+
+Test Case 3:
+	Enter description of the item: TV
+	Enter the year of purchase: 2002
+	Enter the cost of the item: 2600
+	Enter estimated life of the item: 6
+	Enter depreciation method: Double-Declining
+
+	Description: TV
+	Year of Purchase: 2002
+	Cost: 2600
+	Estimated Life: 6
+	Method of Depreciation: Double-Declining
+	Year	Cost		Dep. Amt	Tot Dep.
+	2002	2,600.00	  866.67	  866.67
+	2003	1,733.33	  577.78	1,444.44
+	2004	1,155.56	  385.19	1,829.63
+	2005	  770.37	  256.79	2,086.42
+	2006	  513.58	  171.19	2,257.61
+	2007	  342.39	  342.39	2,600.00
+
+Test Case 4:
+	Enter description of the item: TV
+	Enter the year of purchase: 2002
+	Enter the cost of the item: 2600
+	Enter estimated life of the item: 6
+	Enter depreciation method: Straight-Line
+
+	Description: TV
+	Year of Purchase: 2002
+	Cost: 2600
+	Estimated Life: 6
+	Method of Depreciation: Straight-Line
+	Year	Cost		Dep. Amt	Tot Dep.
+	2002	2,600.00	  433.33	  433.33
+	2003	2,600.00	  433.33	  866.67
+	2004	2,600.00	  433.33	1,300.00
+	2005	2,600.00	  433.33	1,733.33
+	2006	2,600.00	  433.33	2,166.67
+	2007	2,600.00	  433.33	2,600.00

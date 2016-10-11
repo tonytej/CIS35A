@@ -1,0 +1,74 @@
+Test Case 1:
+	Initial side facing up: tails
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: heads
+	Heads appeared 12 times
+	Tails appeared 8 times
+
+Test Case 2:
+	Initial side facing up: tails
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: heads
+	Heads appeared 13 times
+	Tails appeared 7 times
+
+Test Case 3:
+	Initial side facing up: tails
+	Side facing up: heads
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: heads
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: tails
+	Side facing up: tails
+	Heads appeared 6 times
+	Tails appeared 14 times

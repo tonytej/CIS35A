@@ -1,0 +1,61 @@
+Test Case 1:
+	Ship
+	Name: Blackfyre
+	Year Made: 1997
+	Producer: Daemon
+	Weight: 3000 kg
+	Length: 300 m
+	Width: 100 m
+	height: 20 m
+
+	Cargo Ship
+	Name: Dark Sister
+	Year Made: 2000
+	Producer: Daemon
+	Weight: 2500 kg
+	Max Carry Weight: 700 kg
+	Max Cargo Volume: 500 cubic meter
+	Cargo Type: Weapons
+
+	Cruise Ship
+	Name: Dawn
+	Year Made: 1990
+	Producer: Daemon
+	Weight: 4200 kg
+	Number of Rooms: 300
+	Number of Guests: 1000
+	Number of Stops: 5
+	Price per Person: $1200.00
+	Cruise Duration: 7 days
+
+Test Case 2:
+	Cruise Ship
+	Name: Longclaw
+	Year Made: 1991
+	Producer: Aegon
+	Weight: 3000 kg
+	Number of Rooms: 400
+	Number of Guests: 1500
+	Number of Stops: 3
+	Price per Person: $900.00
+	Cruise Duration: 7 days
+
+	Cargo Ship
+	Name: Ice
+	Year Made: 2002
+	Producer: Aegon
+	Weight: 2700 kg
+	Max Carry Weight: 600 kg
+	Max Cargo Volume: 400 cubic meter
+	Cargo Type: Wheat
+
+	Cruise Ship
+	Name: Solstice
+	Year Made: 1973
+	Producer: Celebrity
+	Weight: 4400 kg
+	Number of Rooms: 200
+	Number of Guests: 900
+	Number of Stops: 4
+	Price per Person: $1300.00
+	Cruise Duration: 7 days

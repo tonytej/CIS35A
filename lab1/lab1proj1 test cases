@@ -1,0 +1,41 @@
+Antony Tejakusuma
+CIS 35A
+Lab 1 Project 1
+Due date: 7/3/2016
+Submission date: 7/2/2016
+
+Test Case 1:
+	Enter the quantity of TVs sold: 2
+	Enter the quantity of VCRs sold: 1
+	Enter the quantity of remote controls sold: 4
+	Enter the quantity of CD players sold: 1
+	Enter the quantity of tape recorders sold: 2
+
+	QTY	DESC		PRICE		TOTAL
+	 2	Television	$400.00		$800.00
+	 1	VCR		$220.00		$220.00
+	 4	Remote Control	$35.20		$140.80
+	 1	CD Player	$300.00		$300.00
+	 2	Tape Recorder	$150.00		$300.00
+
+	                             Subtotal: $1760.80
+	                          Tax (8.25%%): $145.27
+	                                Total: $1906.07
+
+Test Case 2:
+	Enter the quantity of TVs sold: 3
+	Enter the quantity of VCRs sold: 0
+	Enter the quantity of remote controls sold: 2
+	Enter the quantity of CD players sold: 0
+	Enter the quantity of tape recorders sold: 21
+
+	QTY	DESC		PRICE		TOTAL
+	 3	Television	$400.00		$1200.00
+	 0	VCR		$220.00		$0.00
+	 2	Remote Control	$35.20		$70.40
+	 0	CD Player	$300.00		$0.00
+	21	Tape Recorder	$150.00		$3150.00
+
+	                             Subtotal: $4420.40
+	                          Tax (8.25%%): $364.68
+	                                Total: $4785.08

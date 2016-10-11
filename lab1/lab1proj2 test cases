@@ -1,0 +1,29 @@
+Antony Tejakusuma
+CIS 35A
+Lab 1 Project 2
+Due date: 7/3/2016
+Submission date: 7/2/2016
+
+Test Case 1:
+	Enter a temperature in Centigrade: 30
+	30.0 C is equivalent to 86.0 F
+	Enter a temperature in Fahrenheit: 68
+	68.0 F is equivalent to 20.0 C
+
+Test Case 2:
+	Enter a temperature in Centigrade: 16
+	16.0 C is equivalent to 60.8 F
+	Enter a temperature in Fahrenheit: 111
+	111.0 F is equivalent to 43.9 C
+
+Test Case 3:
+	Enter a temperature in Centigrade: -10
+	-10.0 C is equivalent to 14.0 F
+	Enter a temperature in Fahrenheit: -2
+	-2.0 F is equivalent to -18.9 C
+
+Test Case 4:
+	Enter a temperature in Centigrade: -30
+	-30.0 C is equivalent to -22.0 F
+	Enter a temperature in Fahrenheit: 0
+	0.0 F is equivalent to -17.8 C

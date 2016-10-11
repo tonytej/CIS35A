@@ -1,0 +1,44 @@
+Test Case 1:
+	Part 1:
+	Saver1 initial balance: $2000.00
+	Saver2 initial balance: $3000.00
+	Saver1 New Balance: $2006.67
+	Saver2 New Balance: $3010.00
+	Saver1 Next Month's Balance: $2015.03
+	Saver2 Next Month's Balance: $3022.54
+
+	Part 2:
+	Saver3 initial balance: $16500.00
+	Saver4 initial balance: $9000.00
+	Saver3 New Balance: $16637.50
+	Saver4 New Balance: $9030.00
+
+Test Case 2:
+	Part 1:
+	Saver1 initial balance: $2000.00
+	Saver2 initial balance: $3000.00
+	Saver1 New Balance: $2006.67
+	Saver2 New Balance: $3010.00
+	Saver1 Next Month's Balance: $2015.03
+	Saver2 Next Month's Balance: $3022.54
+
+	Part 2:
+	Saver3 initial balance: $26500.00
+	Saver4 initial balance: $13000.00
+	Saver3 New Balance: $26720.83
+	Saver4 New Balance: $13108.33
+
+Test Case 3:
+	Part 1:
+	Saver1 initial balance: $2000.00
+	Saver2 initial balance: $3000.00
+	Saver1 New Balance: $2006.67
+	Saver2 New Balance: $3010.00
+	Saver1 Next Month's Balance: $2015.03
+	Saver2 Next Month's Balance: $3022.54
+
+	Part 2:
+	Saver3 initial balance: $52000.00
+	Saver4 initial balance: $3800.00
+	Saver3 New Balance: $52433.33
+	Saver4 New Balance: $3812.67

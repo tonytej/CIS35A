@@ -1,0 +1,628 @@
+Test Case 1(Full plane automatic waitlist): 
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Not Available
+	1 		 4 			 Not Available
+	2 		 1 			 Not Available
+	2 		 2 			 Not Available
+	2 		 3 			 Not Available
+	2 		 4 			 Not Available
+	3 		 1 			 Not Available
+	3 		 2 			 Not Available
+	3 		 3 			 Not Available
+	3 		 4 			 Not Available
+	4 		 1 			 Not Available
+	4 		 2 			 Not Available
+	4 		 3 			 Not Available
+	4 		 4 			 Not Available
+	5 		 1 			 Not Available
+	5 		 2 			 Not Available
+	5 		 3 			 Not Available
+	5 		 4 			 Not Available
+	6 		 1 			 Not Available
+	6 		 2 			 Not Available
+	6 		 3 			 Not Available
+	6 		 4 			 Not Available
+	7 		 1 			 Not Available
+	7 		 2 			 Not Available
+	7 		 3 			 Not Available
+	7 		 4 			 Not Available
+	8 		 1 			 Not Available
+	8 		 2 			 Not Available
+	8 		 3 			 Not Available
+	8 		 4 			 Not Available
+	9 		 1 			 Not Available
+	9 		 2 			 Not Available
+	9 		 3 			 Not Available
+	9 		 4 			 Not Available
+	10 		 1 			 Not Available
+	10 		 2 			 Not Available
+	10 		 3 			 Not Available
+	10 		 4 			 Not Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	1
+	There are 0 open seats available
+	Enter name of passenger: Arby
+	Plane is full you are now number 1 in the waiting list
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Terminated.
+
+Test Case 2(Exception of empty waitlist): 
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Available
+	1 		 4 			 Available
+	2 		 1 			 Available
+	2 		 2 			 Available
+	2 		 3 			 Available
+	2 		 4 			 Available
+	3 		 1 			 Available
+	3 		 2 			 Available
+	3 		 3 			 Available
+	3 		 4 			 Available
+	4 		 1 			 Available
+	4 		 2 			 Available
+	4 		 3 			 Available
+	4 		 4 			 Available
+	5 		 1 			 Available
+	5 		 2 			 Available
+	5 		 3 			 Available
+	5 		 4 			 Available
+	6 		 1 			 Available
+	6 		 2 			 Available
+	6 		 3 			 Available
+	6 		 4 			 Available
+	7 		 1 			 Available
+	7 		 2 			 Available
+	7 		 3 			 Available
+	7 		 4 			 Available
+	8 		 1 			 Available
+	8 		 2 			 Available
+	8 		 3 			 Available
+	8 		 4 			 Available
+	9 		 1 			 Available
+	9 		 2 			 Available
+	9 		 3 			 Available
+	9 		 4 			 Available
+	10 		 1 			 Available
+	10 		 2 			 Available
+	10 		 3 			 Available
+	10 		 4 			 Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	2
+	Enter name of passenger: Dany
+	Enter where do you want to delete the passenger:
+	(1) Flight
+	(2) Waitlist
+	2
+	Waiting list is empty, please try again
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Terminated.
+
+Test Case 3(Exception seat already taken):
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Available
+	1 		 4 			 Available
+	2 		 1 			 Available
+	2 		 2 			 Available
+	2 		 3 			 Available
+	2 		 4 			 Available
+	3 		 1 			 Available
+	3 		 2 			 Available
+	3 		 3 			 Available
+	3 		 4 			 Available
+	4 		 1 			 Available
+	4 		 2 			 Available
+	4 		 3 			 Available
+	4 		 4 			 Available
+	5 		 1 			 Available
+	5 		 2 			 Available
+	5 		 3 			 Available
+	5 		 4 			 Available
+	6 		 1 			 Available
+	6 		 2 			 Available
+	6 		 3 			 Available
+	6 		 4 			 Available
+	7 		 1 			 Available
+	7 		 2 			 Available
+	7 		 3 			 Available
+	7 		 4 			 Available
+	8 		 1 			 Available
+	8 		 2 			 Available
+	8 		 3 			 Available
+	8 		 4 			 Available
+	9 		 1 			 Available
+	9 		 2 			 Available
+	9 		 3 			 Available
+	9 		 4 			 Available
+	10 		 1 			 Available
+	10 		 2 			 Available
+	10 		 3 			 Available
+	10 		 4 			 Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	1
+	There are currently 38 open seats available
+	Enter name of passenger: Tony
+	Enter row of seat: 1
+	Enter column of seat: 1
+	Seat is taken, please try again
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Terminated.
+
+Test Case 4(Adding a passenger to a vacant seat):
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Available
+	1 		 4 			 Available
+	2 		 1 			 Available
+	2 		 2 			 Available
+	2 		 3 			 Available
+	2 		 4 			 Available
+	3 		 1 			 Available
+	3 		 2 			 Available
+	3 		 3 			 Available
+	3 		 4 			 Available
+	4 		 1 			 Available
+	4 		 2 			 Available
+	4 		 3 			 Available
+	4 		 4 			 Available
+	5 		 1 			 Available
+	5 		 2 			 Available
+	5 		 3 			 Available
+	5 		 4 			 Available
+	6 		 1 			 Available
+	6 		 2 			 Available
+	6 		 3 			 Available
+	6 		 4 			 Available
+	7 		 1 			 Available
+	7 		 2 			 Available
+	7 		 3 			 Available
+	7 		 4 			 Available
+	8 		 1 			 Available
+	8 		 2 			 Available
+	8 		 3 			 Available
+	8 		 4 			 Available
+	9 		 1 			 Available
+	9 		 2 			 Available
+	9 		 3 			 Available
+	9 		 4 			 Available
+	10 		 1 			 Available
+	10 		 2 			 Available
+	10 		 3 			 Available
+	10 		 4 			 Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	1
+	There are 38 open seats available
+	Enter name of passenger: John
+	Enter row of seat: 1
+	Enter column of seat: 4
+	Seat Added!
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Terminated.
+
+Test Case 5(Exception of row seat combination):
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Not Available
+	1 		 4 			 Not Available
+	2 		 1 			 Available
+	2 		 2 			 Available
+	2 		 3 			 Available
+	2 		 4 			 Available
+	3 		 1 			 Available
+	3 		 2 			 Available
+	3 		 3 			 Available
+	3 		 4 			 Available
+	4 		 1 			 Available
+	4 		 2 			 Available
+	4 		 3 			 Available
+	4 		 4 			 Available
+	5 		 1 			 Available
+	5 		 2 			 Available
+	5 		 3 			 Available
+	5 		 4 			 Available
+	6 		 1 			 Available
+	6 		 2 			 Available
+	6 		 3 			 Available
+	6 		 4 			 Available
+	7 		 1 			 Available
+	7 		 2 			 Available
+	7 		 3 			 Available
+	7 		 4 			 Available
+	8 		 1 			 Available
+	8 		 2 			 Available
+	8 		 3 			 Available
+	8 		 4 			 Available
+	9 		 1 			 Available
+	9 		 2 			 Available
+	9 		 3 			 Available
+	9 		 4 			 Available
+	10 		 1 			 Available
+	10 		 2 			 Available
+	10 		 3 			 Available
+	10 		 4 			 Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	1
+	There are 36 open seats available
+	Enter name of passenger: Nex
+	Enter row of seat: 12
+	Row number cannot be more than 10 or less than 1, please use valid input
+
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Terminated.
+
+Test Case 5(Exception of column seat combination):
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Not Available
+	1 		 4 			 Not Available
+	2 		 1 			 Available
+	2 		 2 			 Available
+	2 		 3 			 Available
+	2 		 4 			 Available
+	3 		 1 			 Available
+	3 		 2 			 Available
+	3 		 3 			 Available
+	3 		 4 			 Available
+	4 		 1 			 Available
+	4 		 2 			 Available
+	4 		 3 			 Available
+	4 		 4 			 Available
+	5 		 1 			 Available
+	5 		 2 			 Available
+	5 		 3 			 Available
+	5 		 4 			 Available
+	6 		 1 			 Available
+	6 		 2 			 Available
+	6 		 3 			 Available
+	6 		 4 			 Available
+	7 		 1 			 Available
+	7 		 2 			 Available
+	7 		 3 			 Available
+	7 		 4 			 Available
+	8 		 1 			 Available
+	8 		 2 			 Available
+	8 		 3 			 Available
+	8 		 4 			 Available
+	9 		 1 			 Available
+	9 		 2 			 Available
+	9 		 3 			 Available
+	9 		 4 			 Available
+	10 		 1 			 Available
+	10 		 2 			 Available
+	10 		 3 			 Available
+	10 		 4 			 Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	1
+	There are 36 open seats available
+	Enter name of passenger: Olof
+	Enter row of seat: 12
+	Row number cannot be more than 10 or less than 1, please use valid input
+
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	1
+	There are 36 open seats available
+	Enter name of passenger: Lue
+	Enter row of seat: 1
+	Enter column of seat: 5
+	Row number cannot be more than 4 or less than 1, please use valid input
+
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Closed
+
+Test Case 6(Invalid file):
+	File not found!
+
+Test Case 7(removing a passenger from the flight):
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Not Available
+	1 		 4 			 Not Available
+	2 		 1 			 Not Available
+	2 		 2 			 Not Available
+	2 		 3 			 Not Available
+	2 		 4 			 Not Available
+	3 		 1 			 Not Available
+	3 		 2 			 Not Available
+	3 		 3 			 Not Available
+	3 		 4 			 Not Available
+	4 		 1 			 Not Available
+	4 		 2 			 Not Available
+	4 		 3 			 Not Available
+	4 		 4 			 Not Available
+	5 		 1 			 Not Available
+	5 		 2 			 Not Available
+	5 		 3 			 Not Available
+	5 		 4 			 Not Available
+	6 		 1 			 Not Available
+	6 		 2 			 Not Available
+	6 		 3 			 Not Available
+	6 		 4 			 Not Available
+	7 		 1 			 Not Available
+	7 		 2 			 Not Available
+	7 		 3 			 Not Available
+	7 		 4 			 Not Available
+	8 		 1 			 Not Available
+	8 		 2 			 Not Available
+	8 		 3 			 Not Available
+	8 		 4 			 Not Available
+	9 		 1 			 Not Available
+	9 		 2 			 Not Available
+	9 		 3 			 Not Available
+	9 		 4 			 Not Available
+	10 		 1 			 Not Available
+	10 		 2 			 Not Available
+	10 		 3 			 Not Available
+	10 		 4 			 Not Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	2
+	Enter name of passenger: Dennis
+	Enter where do you want to delete the passenger:
+	(1) Flight
+	(2) Waitlist
+	1
+	Searching for passenger...
+	Passenger was succesfully removed!
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Terminated.
+
+Test Case 8(Removing a passenger that does not exist):
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Not Available
+	1 		 4 			 Not Available
+	2 		 1 			 Not Available
+	2 		 2 			 Not Available
+	2 		 3 			 Not Available
+	2 		 4 			 Not Available
+	3 		 1 			 Not Available
+	3 		 2 			 Not Available
+	3 		 3 			 Not Available
+	3 		 4 			 Not Available
+	4 		 1 			 Not Available
+	4 		 2 			 Not Available
+	4 		 3 			 Not Available
+	4 		 4 			 Not Available
+	5 		 1 			 Not Available
+	5 		 2 			 Not Available
+	5 		 3 			 Not Available
+	5 		 4 			 Not Available
+	6 		 1 			 Not Available
+	6 		 2 			 Not Available
+	6 		 3 			 Not Available
+	6 		 4 			 Not Available
+	7 		 1 			 Not Available
+	7 		 2 			 Not Available
+	7 		 3 			 Not Available
+	7 		 4 			 Not Available
+	8 		 1 			 Not Available
+	8 		 2 			 Not Available
+	8 		 3 			 Not Available
+	8 		 4 			 Not Available
+	9 		 1 			 Not Available
+	9 		 2 			 Not Available
+	9 		 3 			 Not Available
+	9 		 4 			 Not Available
+	10 		 1 			 Not Available
+	10 		 2 			 Not Available
+	10 		 3 			 Not Available
+	10 		 4 			 Not Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	2
+	Enter name of passenger: Benson
+	Please enter where do you want to delete the passenger:
+	(1) Flight
+	(2) Waitlist
+	1
+	Searching for passenger...
+	Passenger not found!
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Terminated.
+
+Test Case 9(Adding a person to the waitlist and automatically moving him/her if there is an empty seat):
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Not Available
+	1 		 4 			 Not Available
+	2 		 1 			 Not Available
+	2 		 2 			 Not Available
+	2 		 3 			 Not Available
+	2 		 4 			 Not Available
+	3 		 1 			 Not Available
+	3 		 2 			 Not Available
+	3 		 3 			 Not Available
+	3 		 4 			 Not Available
+	4 		 1 			 Not Available
+	4 		 2 			 Not Available
+	4 		 3 			 Not Available
+	4 		 4 			 Not Available
+	5 		 1 			 Not Available
+	5 		 2 			 Not Available
+	5 		 3 			 Not Available
+	5 		 4 			 Not Available
+	6 		 1 			 Not Available
+	6 		 2 			 Not Available
+	6 		 3 			 Not Available
+	6 		 4 			 Not Available
+	7 		 1 			 Not Available
+	7 		 2 			 Not Available
+	7 		 3 			 Not Available
+	7 		 4 			 Not Available
+	8 		 1 			 Not Available
+	8 		 2 			 Not Available
+	8 		 3 			 Not Available
+	8 		 4 			 Not Available
+	9 		 1 			 Not Available
+	9 		 2 			 Not Available
+	9 		 3 			 Not Available
+	9 		 4 			 Not Available
+	10 		 1 			 Not Available
+	10 		 2 			 Not Available
+	10 		 3 			 Not Available
+	10 		 4 			 Not Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	1
+	There are 0 open seats available
+	Please enter name of passenger: Niko
+	Plane is full you are now number 1 in the waiting list
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	2
+	Please enter name of passenger: Terry
+	Please enter where do you want to delete the passenger:
+	(1) Flight
+	(2) Waitlist
+	1
+	Searching for passenger...
+	Passenger was succesfully removed!
+	First person in the waitlist has been assigned a seat
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Terminated.
+
+Test Case 10(Exception name input is null value):
+	Printing seating chart...
+	Row 		 Column 		 Status
+	1 		 1 			 Not Available
+	1 		 2 			 Not Available
+	1 		 3 			 Not Available
+	1 		 4 			 Not Available
+	2 		 1 			 Available
+	2 		 2 			 Available
+	2 		 3 			 Available
+	2 		 4 			 Available
+	3 		 1 			 Available
+	3 		 2 			 Available
+	3 		 3 			 Available
+	3 		 4 			 Available
+	4 		 1 			 Available
+	4 		 2 			 Available
+	4 		 3 			 Available
+	4 		 4 			 Available
+	5 		 1 			 Available
+	5 		 2 			 Available
+	5 		 3 			 Available
+	5 		 4 			 Available
+	6 		 1 			 Available
+	6 		 2 			 Available
+	6 		 3 			 Available
+	6 		 4 			 Available
+	7 		 1 			 Available
+	7 		 2 			 Available
+	7 		 3 			 Available
+	7 		 4 			 Available
+	8 		 1 			 Available
+	8 		 2 			 Available
+	8 		 3 			 Available
+	8 		 4 			 Available
+	9 		 1 			 Available
+	9 		 2 			 Available
+	9 		 3 			 Available
+	9 		 4 			 Available
+	10 		 1 			 Available
+	10 		 2 			 Available
+	10 		 3 			 Available
+	10 		 4 			 Available
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	1
+	There are 36 open seats available
+	Enter name of passenger: 
+	Enter row of seat: 4
+	Enter column of seat: 3
+	Name cannot be blank, please use valid input
+
+	Enter numbers associated with action:
+	(1) Add Passenger
+	(2) Remove Passenger
+	(3) Quit
+	3
+	Program Terminated.

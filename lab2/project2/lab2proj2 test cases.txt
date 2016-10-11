@@ -1,0 +1,38 @@
+Test Case 1 (Parked vehicle is within the parking time purchased, minutes purchased = 60, minutes parked = 50):
+	Parking time has not expired.
+
+Test Case 2 (Parked vehicle is out of the parking time purchased, minutes purchased = 60, minutes parked = 61):
+	Parking Ticket
+
+	Make: Chevrolet
+	Model: Malibu
+	Color: Gray
+	License Number: 7GT6QT8
+	Fine: $25.00
+	Police Officer Name: John Doe
+	Police Officer Badge Number: 333
+
+Test Case 3 (Parked vehicle is just in the parking time purchased, minutes purchased = 60, minutes parked = 60):
+	Parking time has not expired.
+
+Test Case 4 (Ticketing under 1 hour, minutes purchased = 60, minutes parked = 100):
+	Parking Ticket
+
+	Make: Chevrolet
+	Model: Malibu
+	Color: Gray
+	License Number: 7GT6QT8
+	Fine: $25.00
+	Police Officer Name: John Doe
+	Police Officer Badge Number: 333
+
+Test Case 5 (Ticketing more than 1 hour, minutes purchased = 60, minutes parked = 243):
+	Parking Ticket
+
+	Make: Chevrolet
+	Model: Malibu
+	Color: Gray
+	License Number: 7GT6QT8
+	Fine: $45.00
+	Police Officer Name: John Doe
+	Police Officer Badge Number: 333
